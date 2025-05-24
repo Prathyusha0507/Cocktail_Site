@@ -1,0 +1,107 @@
+/* === Global Styles === */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fffdf6;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  /* === Headings === */
+  h1 {
+    color: #ff6f61;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  h2, h3 {
+    color: #ff9a8b;
+    margin: 20px 0 10px;
+  }
+  
+  p {
+    max-width: 600px;
+    margin: 10px auto;
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  /* === Grid of Cocktails === */
+  .cocktail-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 25px;
+    margin-top: 30px;
+  }
+  
+  .cocktail-card {
+    background: #ffe8e8;
+    padding: 15px;
+    border-radius: 12px;
+    width: 250px;
+    box-shadow: 0 8px 16px rgba(255, 182, 193, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .cocktail-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(255, 182, 193, 0.3);
+  }
+  
+  .cocktail-card img {
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  /* === Cocktail Detail Page === */
+  img {
+    max-width: 90%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(255, 153, 102, 0.2);
+    margin-top: 20px;
+  }
+  
+  /* === Lists === */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #fff7f0;
+    margin: 10px auto;
+    padding: 10px 15px;
+    border-radius: 8px;
+    width: 60%;
+    color: #333;
+    box-shadow: 0 2px 6px rgba(255, 153, 102, 0.1);
+  }
+  
+  /* === Buttons & Links === */
+  a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffb347;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  a:hover {
+    background-color: #ffa726;
+  }
+  
+  /* === Footer (Optional) === */
+  footer {
+    margin-top: 40px;
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  

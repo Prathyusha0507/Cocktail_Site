@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cocktail List</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <h1>🍸 Cocktail List</h1>
+  <div class="cocktail-grid">
+    <% cocktails.forEach(drink => { %>
+      <div class="cocktail-card">
+        <h2><%= drink.strDrink %></h2>
+        <a href="/cocktail/<%= drink.idDrink %>">
+          <img src="<%= drink.strDrinkThumb %>" alt="<%= drink.strDrink %>">
+        </a>
+      </div>
+    <% }) %>
+  </div>
+</body>
+</html>
